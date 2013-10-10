@@ -10,10 +10,8 @@ filetype indent on
 let mapleader=','
 "status bar
 let g:airline_powerline_fonts = 1
-"nerd-tree
-"let g:Powerline_symbols = 'fancy'
-map <leader><n> :NERDTreeToggle<CR>
-autocmd vimenter * if !argc() | NERDTree | endif
+set encoding=utf-8
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline
 
 "Status Line
 let g:airline#extensions#tabline#enabled = 1

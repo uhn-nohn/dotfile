@@ -25,3 +25,6 @@ set laststatus=2
 
 "ctrl+p
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+"neard
+map <C-n> :NERDTreeToggle<CR>
+autocmd vimenter * if !argc() | NERDTree | endif

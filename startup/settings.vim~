@@ -25,5 +25,3 @@ set laststatus=2
 
 "ctrl+p
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-
-set -g default-terminal "screen-256color"
