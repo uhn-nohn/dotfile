@@ -1,5 +1,4 @@
 set nocompatible
-set number
 " Turn of backup
 set nowb
 set noswapfile
@@ -28,3 +27,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 "neard
 map <C-n> :NERDTreeToggle<CR>
 autocmd vimenter * if !argc() | NERDTree | endif
+
+"relative num
+set rnu
+set nobackup
