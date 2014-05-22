@@ -21,7 +21,7 @@ set incsearch		" do incremental searching
 set laststatus=2
 
 " Always show tab bar
-set showtabline=2
+"set showtabline=2
 
 set guitablabel=%N:%M%t " Show tab numbers
 set smarttab
