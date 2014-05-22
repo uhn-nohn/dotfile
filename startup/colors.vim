@@ -1,3 +1,1 @@
-
-set background=light
-color skittles_berry 
+color ir_black
